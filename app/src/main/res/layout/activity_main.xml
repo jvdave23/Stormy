@@ -39,7 +39,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Alcatraz Island, CA"
+        android:text="Toronto, ON"
         android:id="@+id/locationLabel"
         android:layout_above="@id/degreeImageView"
         android:layout_centerHorizontal="true"
@@ -98,7 +98,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="RAIN/SNOW?"
+                android:text="PRECIPITATION"
                 android:id="@+id/precipLabel"
                 android:textColor="#80ffffff"
                 android:gravity="center_horizontal"/>

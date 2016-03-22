@@ -89,7 +89,9 @@ public class CurrentWeather {
     }
 
     public int getTemperature() {
-        return (int)Math.round(mTemperature);
+        double ft = 5.0/9;
+        double tempCelcius = (mTemperature - 32) * ft;
+        return (int)Math.round(tempCelcius);
     }
 
     public void setTemperature(double temperature) {

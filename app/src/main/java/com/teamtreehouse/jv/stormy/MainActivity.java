@@ -59,8 +59,13 @@ public class MainActivity extends AppCompatActivity {
 
         mProgressBar.setVisibility(View.INVISIBLE);
 
-        final double latitude = 37.8267 ;
-        final double longitude = -122.423;
+        // Latitude and Longitude for Alcatraz Island, the city used in the Course
+        //final double latitude = 37.8267 ;
+        //final double longitude = -122.423;
+
+        //Latitude and Longitude for Toronto
+        final double latitude = 43.7000;
+        final double longitude = -79.4000;
 
         mRefreshImageView.setOnClickListener(new View.OnClickListener() {
             @Override
